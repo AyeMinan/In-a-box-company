@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Course Register</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+ 
+  <link href="style.css" rel="stylesheet" type="text/css" >
+  
+</head>
+
+<body>
+
+<div class="topnav">
+  <a  href="<%= request.getContextPath() %>/index">Home</a>
+  <a href="<%= request.getContextPath() %>/new">Course Register</a>
+ 
+</div>
+ 
+
+
+  <!-- ======= Hero Section ======= -->
+  
+  <div class="hero-section">
+  <div class="hero-text">
+    <h1 style="font-size:30px">Welcome to Training Department</h1>
+    <p><b>  There are two session for each course,You can select any course for this session. <br>                                                                                               
+        Morning session is from 7.00 Am to 9.00 Am and Evening session from  4.00 Pm to 6.00 PM</b></p>
+    <a href="<%= request.getContextPath() %>/new"  class="btn-get-started scrollto"><button>Register Course</button></a>
+  </div>
+</div>
+ 
+</body>
+
+</html>
+
+<!--  request.getContextPath(), as it will always points to root of your application. 
+ 
+ you were to move your jsp file from one directory to another, nothing needs to be changed. -->
+ 
+ 
